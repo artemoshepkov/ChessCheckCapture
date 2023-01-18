@@ -27,7 +27,9 @@ namespace ChessPetroGM.Model
                             continue;
 
                         if (move.X == pieceCapturing.Position.X && move.Y == pieceCapturing.Position.Y)
-                            yield return $"{pieceMoving.GetPeaceSymbol()} capture {pieceCapturing.GetPeaceSymbol()}";
+                            yield return $"{pieceMoving.GetPeaceSymbol()} ({pieceMoving.Position.X}, {pieceMoving.Position.Y}) " +
+                                $"capture " +
+                                $"{pieceCapturing.GetPeaceSymbol()} ({pieceCapturing.Position.X}, {pieceCapturing.Position.Y})";
                     }
                 }
             }
