@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects Condition="'$(MSBuildVersion)' == '' Or '$(MSBuildVersion)' &lt; '16.0'">$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>d17c2fd2-66ef-4cff-af1f-9af53bb95e6e</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>ChessPetroGM</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)Model\Board.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Model\ChessPieces\Bishop.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Model\ChessPieces\Knight.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Model\ChessPieces\Queen.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Model\ChessPieces\Rook.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Model\GetterPiecesMoves.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Model\Point.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)View\GameView.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Model\ChessPieces\King.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Model\ChessPieces\Piece.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Model\Game.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Model\GameFileReader.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="$(MSBuildThisFileDirectory)View\" />
+  </ItemGroup>
+</Project>

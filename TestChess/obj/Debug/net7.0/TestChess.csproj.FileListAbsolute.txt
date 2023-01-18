@@ -1,0 +1,15 @@
+D:\Projects\TestChess\bin\Debug\net7.0\TestChess.exe
+D:\Projects\TestChess\bin\Debug\net7.0\TestChess.deps.json
+D:\Projects\TestChess\bin\Debug\net7.0\TestChess.runtimeconfig.json
+D:\Projects\TestChess\bin\Debug\net7.0\TestChess.dll
+D:\Projects\TestChess\bin\Debug\net7.0\TestChess.pdb
+D:\Projects\TestChess\obj\Debug\net7.0\TestChess.csproj.AssemblyReference.cache
+D:\Projects\TestChess\obj\Debug\net7.0\TestChess.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\TestChess\obj\Debug\net7.0\TestChess.AssemblyInfoInputs.cache
+D:\Projects\TestChess\obj\Debug\net7.0\TestChess.AssemblyInfo.cs
+D:\Projects\TestChess\obj\Debug\net7.0\TestChess.csproj.CoreCompileInputs.cache
+D:\Projects\TestChess\obj\Debug\net7.0\TestChess.dll
+D:\Projects\TestChess\obj\Debug\net7.0\refint\TestChess.dll
+D:\Projects\TestChess\obj\Debug\net7.0\TestChess.pdb
+D:\Projects\TestChess\obj\Debug\net7.0\TestChess.genruntimeconfig.cache
+D:\Projects\TestChess\obj\Debug\net7.0\ref\TestChess.dll
