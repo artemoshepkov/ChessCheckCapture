@@ -8,7 +8,7 @@ namespace TestChess
     {
         private static void Main()
         {
-            var pieces = GameFileReader.GetPeacesFromFile(@"D:\Projects\TestChess\ChessPieces.txt").ToArray();
+            var pieces = GameFileReader.GetPeacesFromFile(@"..\..\..\ChessPieces.txt").ToArray();
 
             ChessBoard board = new ChessBoard(pieces);
             Game game = new Game(board);
