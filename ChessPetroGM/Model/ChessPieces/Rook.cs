@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace ChessPetroGM.Model.ChessPieces
+﻿namespace ChessPetroGM.Model.ChessPieces
 {
     public class Rook : Piece
     {

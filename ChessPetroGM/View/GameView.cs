@@ -1,5 +1,4 @@
 ﻿using ChessPetroGM.Model;
-using ChessPetroGM.Model.ChessPieces;
 
 namespace ChessPetroGM.View
 {

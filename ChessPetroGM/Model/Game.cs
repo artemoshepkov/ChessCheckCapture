@@ -1,10 +1,4 @@
-﻿using ChessPetroGM.Model.ChessPieces;
-using System.Linq;
-using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace ChessPetroGM.Model
+﻿namespace ChessPetroGM.Model
 {
     public class Game
     {

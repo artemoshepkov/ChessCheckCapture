@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Diagnostics.CodeAnalysis;
-using System.Text;
-
-namespace ChessPetroGM.Model
+﻿namespace ChessPetroGM.Model
 {
     public class Point : IEquatable<Point>
     {

@@ -1,5 +1,4 @@
 ﻿using ChessPetroGM.Model;
-using ChessPetroGM.Model.ChessPieces;
 using ChessPetroGM.View;
 
 namespace TestChess
@@ -20,7 +19,7 @@ namespace TestChess
                 Console.WriteLine();
                 gameView.ShowPiecesCapturing();
             }
-            catch (Exception ex) 
+            catch (Exception ex)
             {
                 Console.WriteLine(ex.Message);
             }

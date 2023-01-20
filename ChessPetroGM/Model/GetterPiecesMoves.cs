@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections;
-using System.Collections.Generic;
-using System.Text;
-
-namespace ChessPetroGM.Model
+﻿namespace ChessPetroGM.Model
 {
     internal class GetterPeacesMoves
     {

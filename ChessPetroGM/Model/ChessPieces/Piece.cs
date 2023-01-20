@@ -1,6 +1,4 @@
-﻿using System.Linq;
-
-namespace ChessPetroGM.Model.ChessPieces
+﻿namespace ChessPetroGM.Model.ChessPieces
 {
     public abstract class Piece
     {
